@@ -1,0 +1,16 @@
+{
+  "name": "scubaproje",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^41.2.1"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.34"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scuba Cat AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="status-panel">
+      <h1>SCUBA CAT <span>AI</span></h1>
+      <p id="status">Kamerayı Hazırlıyor...</p>
+      <div class="detection-dot" id="detectionDot"></div>
+    </div>
+
+    <div class="camera-container">
+      <video id="webcam" autoplay playsinline></video>
+      <canvas id="output_canvas"></canvas>
+    </div>
+
+    <div id="scubaCatContainer" class="scuba-cat-overlay hidden">
+      <img src="scuba_cat.png" alt="Scuba Cat" id="scubaCat">
+      <div class="bubbles"></div>
+    </div>
+  </div>
+
+  <script type="module" src="renderer.js"></script>
+</body>
+</html>
