@@ -16,13 +16,12 @@ Bu proje, kullanıcıdan gelen el hareketlerini analiz eder ve belirli hareketle
 
 ## 🛠️ Teknolojiler
 - Python
-- OpenCV
 
 ## 📦 Kurulum
-pip install opencv-python mediapipe numpy
+pip install python 
 
 ## ▶️ Çalıştırma
-python main.py
+python scuba_cat.py
 
 ## 📁 Yapı
 - scuba_cat.py
